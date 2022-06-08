@@ -28,9 +28,6 @@ class PlayersService {
     return 'player has been injured'
   }
 
-  async updatePlayer(name) {
-    playerDb = playerDb.Players.find(p => p.name != name)
-  }
 }
 
 
